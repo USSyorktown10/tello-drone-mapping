@@ -1,4 +1,4 @@
-# Tello Mapping & Planning Demo
+# Tello Mapping, Demo of Range
 
 This repository contains a minimal demo that integrates camera-based obstacle detection, a simple occupancy grid mapper, an A* planner, and a flight runner that can operate in simulation (using your webcam) or with a real Tello drone.
 
@@ -29,4 +29,4 @@ python flight_runner.py
 
 Switch to a real Tello by editing `flight_runner.py` and setting `USE_SIM = False`. Make sure the Tello SDK is available and you are on the Tello's Wi‑Fi network.
 
-If you want higher accuracy for walls, add a range sensor or ArUco markers with known sizes.
+I dont have accurate range, so gotta grab a LIDAR or Ultrasonic range sensor.
